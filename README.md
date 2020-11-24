@@ -1,5 +1,5 @@
 # Thesis
- **The aim of this project is to measure the efficiency of small-scale systems with arduino, so that if we build a system, we see the energy that we will gain. Renewable energy sources are not harm the nature, even it is produced by benefiting from the nature. Arduino can be used like a brain and it performs recording, displaying and controlling the operates. The data from Arduino can be transfered to MATLAB to observe graphically. It allows us to see which system can produce more energy about productivity and errors that may occur.**
+ **The goal of this project is to measure the efficiency of Arduino-based small-scale system, which may allow us to see the energy that is gained. Renewable energy sources are clean and safe for the environment and nature. The source of renewable energy is nature. In our context, Arduino can function like human brain while recording, displaying, and controlling the operations. The data from Arduino can be transferred to MATLAB to enable graphical observation. It can show the errors that may occur in the system and can also show which system is more productive in comparison to others.**
 ## Solar Panel
  **Solar panels collect clean renewable energy in the form of sunlight and convert that light into electricity which can then be used to provide power for electrical loads.**
 
