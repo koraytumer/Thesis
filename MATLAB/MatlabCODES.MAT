@@ -1,0 +1,31 @@
+clc;
+clear all;
+comport = serial('COM3','BaudRate',9600); //Arduino is required
+fopen(comport); //open card that is required
+x=0;
+while(1)
+x=x+1;
+y1(x)=fscanf(comport, '%d');   	//get data from the solar panel 
+y2(x)=fscanf(comport, '%d'); 	 //get data from the peltier module  
+y3(x)=fscanf(comport, '%d'); 	//get data from the steam turbine
+v1 = (5.00/1024.00)*y1; 	//change data  between 0-1204 to 0-5
+v2 = (5.00/1024.00)*y2;
+v3 = (5.00/1024.00)*y3;
+drawnow;  			 //graphics settins
+plot(v1,'r--','linewidth',3)
+drawnow;
+grid on;
+hold on;
+plot(v2,'b--','linewidth',3)
+drawnow;
+grid on;
+hold on;
+plot(v3,'y--','linewidth',3)
+title('voltaj degeri');
+xlabel('zaman');
+ylabel('gerilim');
+legend('gunes', 'isi', 'buhar');
+pause(0.1);
+end
+fclose(comport);		//close arduino connection		
+delete(comport);
