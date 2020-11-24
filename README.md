@@ -7,6 +7,7 @@
  
  ## Steam Turbine
  **I used it as a wind turbine in this project. Wind turbine is a machine that converts kinetic energy from the wind into electricity.**
+ 
  <img src="SS/steam.PNG" width="300">
  
   ## Peltier Module
