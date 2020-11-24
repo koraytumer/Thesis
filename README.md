@@ -1,1 +1,2 @@
 # Thesis
+ The aim of this project is to measure the efficiency of small-scale systems with arduino, so that if we build a system, we can see the energy that we will gain. Renewable energy sources are not harm the nature, even it is produced by benefiting from the nature. Arduino can be used like a brain and it performs recording, displaying and controlling the operates. The data from Arduino can be transfered to MATLAB to observe graphically. It allows us to see which system can produce more energy about productivity and errors that may occur.
